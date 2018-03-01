@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
-import Name from './components/Name'
+import MyName from './components/MyName'
+import './main.scss'
 
 const root = document.getElementById("app");
 
-ReactDOM.render(<App/>,root)
+ReactDOM.render(<div><MyName/><App/></div>,root)
